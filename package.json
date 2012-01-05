@@ -1,0 +1,9 @@
+{
+  "name": "file-hoister",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "stack": "~0.1.0",
+    "creationix": "~0.3.1"
+  }
+}
