@@ -1,6 +1,5 @@
-// Load a couple built-in node libraries
+// Load a built-in node library
 var HTTP = require('http');
-var FS = require('fs');
 // Load a couple third-party node modules
 var Stack = require('stack');
 var Creationix = require('creationix');
