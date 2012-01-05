@@ -39,8 +39,8 @@ function checker(req, username, password) {
 
 // Stack up a server and start listening
 HTTPS.createServer(options, Stack(
-  Creationix.auth(checker, "My Sample Domain"),
   Creationix.log(),
+  Creationix.auth(checker, "My Sample Domain"),
   Creationix.indexer("/", root),
   Creationix.static("/", root)
 )).listen(port);
