@@ -12,9 +12,7 @@ var port = process.env.PORT || 3000;
 
 // Stack up a server and start listening
 HTTP.createServer(Stack(
-  Creationix.log(),
-  Creationix.indexer("/", root),
-  Creationix.static("/", root)
+  Creationix.log()
 )).listen(port);
 
 // Give the user a nice message on the standard output
