@@ -7,7 +7,7 @@ var Creationix = require('creationix');
 // Serve files relative to the current working directory
 var root = process.cwd();
 // Listen on the alt-http port
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 
 // Stack up a server and start listening
 HTTP.createServer(Stack(
