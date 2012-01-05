@@ -32,7 +32,9 @@ var access = {
 // Authentation and Authorization in one go
 function checker(req, username, password) {
   var allowed = access[req.method];
-  if (allowed[username] && users[username] === password) return username;
+  if (allowed[username] && users[username] === password) {
+    return username;
+  }
 }
 
 // Stack up a server and start listening
